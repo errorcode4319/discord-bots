@@ -7,4 +7,4 @@ services:
       - ./:/app  
     environment:
       DISCORD_TOKEN: "input your token"
-    command: "cd /app && python3 bot.py"
+    command: "sh /app/run.sh"
