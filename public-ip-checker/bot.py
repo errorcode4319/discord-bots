@@ -1,5 +1,6 @@
 import discord
 import requests
+import os 
 from discord.ext import commands
 
 # 봇 초기화
